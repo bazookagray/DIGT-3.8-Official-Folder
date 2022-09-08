@@ -1,0 +1,157 @@
+
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+  
+}
+
+
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  
+}
+
+
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-align: center;
+  top: 300px;
+}
+
+
+
+h5 {
+  font-size: 50px;
+
+}
+
+h6 {
+  font-size: 17px;
+}
+
+hr {
+  position: relative;
+  background-position-x: 172;
+  background-position-y: 850;
+  top: none;
+  border: none;
+  height: 2px;
+  width: 1200px;
+  background: rgb(255, 255, 255);
+  margin-bottom: none;
+
+}
+
+
+
+.class-for-index {
+  background-color: rgb(80,90,102);
+}
+
+
+
+.class-for-about {
+  background-color: rgb(175,178,181);
+}
+
+
+
+.class-for-sleep {
+  background-color: rgb(80,90,102);
+}
+
+
+
+.class-for-features {
+  background-color: rgb(152,164,180);
+}
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  bottom: 90px;
+}
+
+
+
+
+.thickness {
+  font-weight:lighter
+}
+
+
+
+
+a {
+ text-decoration:none;
+ font-size: 20px;  
+}
+
+
+
+div {
+  display: flex;
+  justify-content: center;
+  }
+
+
+
+.container {
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  margin: 24px auto;
+  
+}
+
+.container .box {
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: #4f5965;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px 1px #FFFFFF;  
+}
+
+ .container .box .title {
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(152,164,180);
+
+ }
+
+ .container .box .content {
+  position: absolute;
+  height: 100%;
+  text-align:center;
+  padding: 100px;
+
+
+ }
